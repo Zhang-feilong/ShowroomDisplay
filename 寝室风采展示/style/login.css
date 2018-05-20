@@ -74,6 +74,17 @@
     margin-left: 37px;
 }
 
+#forget {
+    width: 200px;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 29px auto;
+}
+
+.regis {
+    color: #fff;
+}
+
 #footer .col-sm-9 {
     max-width: 1111px;
     margin: 0 auto;
