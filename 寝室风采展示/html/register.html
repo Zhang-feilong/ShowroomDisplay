@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>寝室风采展示之注册页面</title>
+	<link rel="stylesheet" type="text/css" href="../style/head.css">
+	<link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../style/login.css">	
+</head>
+<body>
+	<div id="head" >
+		<div class="row">
+			<div class="col-sm-3 col-xs-3" id="logo"><span>H</span>ome</div>
+				<ul class="col-sm-6 col-xs-6" id="nav">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="qushi.html">寝室趣事儿</a></li>
+					<li><a href="hudong.html">寝室互动</a></li>
+					<li><a href="about.html">关于</a></li>
+				</ul>
+				<div id="login" class="col-sm-2">
+					<ul>
+						<li><a href="register.html" class="regi">注册 ｜</a></li>
+						<li><a href="login.html"><img src="../img/login.png" alt="Login">登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="top">
+			<h1>注册</h1>
+			<h2>欢迎加入！</h2>
+		</div>
+		<div id="middle">
+			<div class="top_login">
+				<form>
+					<div>
+						<label>账号:</label>
+						<input type="text" name="id" id="number" placeholder="寝室编号" />
+					</div>
+					<div>
+						<label>密码:</label>
+						<input type="password" name="password" id="password" placeholder="室友共享，请记住！">
+					</div>
+					<div>
+						<label>邮箱:</label>
+						<input type="email" name="email" class="email" placeholder="Email">
+					</div>
+					<button id="btn" type="button">确定</button> 
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="row">
+		<div class="col-sm-9 col-xs-9"><span class="text-success">©寝室风采展示项目小组</span></div>
+	</div>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"</script>
+	<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+	<script type="text/javascript" src="../js/login-register.js"></script>
+</body>
+</html>
